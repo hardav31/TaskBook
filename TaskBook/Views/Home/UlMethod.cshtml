@@ -1,0 +1,22 @@
+﻿@model TaskBook.Models.MyModel
+<div>
+    <form action="@Url.Action("MyAction")" method="post" enctype="multipart/form-data">
+        <ul>
+            <li><img src="~/Nkar/@Model.NkarName" /></li>
+            <li class="Words">
+                <a href="~/File/@Model.FileName">
+                    <p>@Model.Hexinak</p>
+                </a>
+            </li>
+           <li class="Words">@Model.Nkaragrutyun </li>
+        </ul>
+
+
+        <input type="hidden" name="filename" value="@Model.FileName" />
+
+        <input class="inputdelete" type="submit" name="submitButton" value="Delete" />
+        <input type="submit" name="submitButton" value="Change" />
+    </form>
+</div>
+
+

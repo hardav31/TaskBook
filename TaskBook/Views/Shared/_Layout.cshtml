@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title – приложение ASP.NET</title>
+    
+  
+
+    <link href="~/Content/MyCss.css" rel="stylesheet" />
+</head>
+
+
+
+<body>
+    <header>
+        <span class="HeaderSpan">Books Site</span>
+    </header>
+    <ul class="Headerul">
+
+        @RenderSection("ul")
+    </ul>
+    @RenderBody()
+
+
+   
+    <!--...-->
+</body>
+</html>
