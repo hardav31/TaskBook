@@ -28,7 +28,7 @@ namespace TaskBook.Controllers
             new MyModel()
             {
                 FileName="ASPNETMVC4inAction.pdf",
-                Hexinak="Narayan: ASP.NET1",
+                Hexinak="Narayan: ASP.NET",
                 NkarName="2.jpg",
                 Nkaragrutyun="Learn all the new ASP.NET ",
             }
